@@ -11,7 +11,7 @@ function Landing() {
                 <button>free counseling</button>
             </div>
             <div className="img-container">
-                <img src="/Landing/snap.png" alt="code snap" />
+                <img src="/Landing/Snap.png" alt="code snap" />
             </div>
         </section>
 
