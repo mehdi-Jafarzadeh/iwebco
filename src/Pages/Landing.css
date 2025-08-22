@@ -1,22 +1,26 @@
 #Landing {
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
     margin-top: 50px;
 }
 
 #Landing #s1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 30px;
+    /* background: #000; */
 }
 
 #Landing #s1 .text-container {
-    width: 48%;
+    width: 45%;
+}
+    #Landing #s1 .text-container p{
+        padding-left: 20px;
 }
 
 #Landing #s1 .text-container {
     font-size: x-large;
-        margin-top: 80px;
+        margin-top: 30px;
 
 }
 
@@ -38,7 +42,7 @@
 }
 
 #Landing #s1 .img-container {
-    width: 48%;
+    width: 42%;
 }
 
 #Landing #s1 .img-container img {
@@ -47,16 +51,36 @@
 }
 
 @media screen and (max-width: 1200px) {
+    #Landing #s1 {
+        justify-content: space-between;
+    }
     #Landing #s1 .text-container,
     #Landing #s1 .img-container {
-        width: 40%;
+        width: 48%;
         font-size: large;
     }
     #Landing #s1 .text-container{
-        margin-top: 0px;
+        margin-top: 20px;
     }
     #Landing #s1 .text-container button{
         font-size: large;
         margin: 5px;
+    }
+    
 }
+@media screen and (max-width: 890px) {
+    #Landing #s1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+    #Landing #s1 .text-container,
+    #Landing #s1 .img-container {
+        width: 80%;
+    }
+    #Landing #s1 .img-container {
+        margin-top: 50px;
+        max-width: 500px;
+    }
 }
