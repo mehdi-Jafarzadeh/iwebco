@@ -1,8 +1,8 @@
 import './Navbar.css'
 function Navbar() {
   return <nav>
-    <img src="/public/logo.png" alt="" />
-    
+    <img src="/logo.png" alt="" />
+
   </nav>
 }
 
