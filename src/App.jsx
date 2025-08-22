@@ -1,3 +1,4 @@
+import Navbar from './Components/Navbar/Navbar'
 import Landing from './Pages/Landing'
 import Logo from '/logot.png'
 function App() {
@@ -11,11 +12,11 @@ function App() {
   
   return (
     <>
-
+      <Navbar />
       <Landing />
 
 
-      {/* {production} */}
+      {production}
     </>
   )
 }
