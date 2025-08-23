@@ -1,6 +1,5 @@
 import Navbar from './Components/Navbar/Navbar'
-import Landing from './Pages/Landing'
-import Logo from '/logot.png'
+import Landing from './Pages/Landing/Landing'
 function App() {
 
  const production = <div className='container'>
