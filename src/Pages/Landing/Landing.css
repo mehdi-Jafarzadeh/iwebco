@@ -14,13 +14,14 @@
 #Landing #s1 .text-container {
     width: 45%;
 }
-    #Landing #s1 .text-container p{
-        padding-left: 20px;
+
+#Landing #s1 .text-container p {
+    padding-left: 20px;
 }
 
 #Landing #s1 .text-container {
     font-size: x-large;
-        margin-top: 30px;
+    margin-top: 30px;
 
 }
 
@@ -68,7 +69,8 @@
     padding: 20px 0;
 
 }
-#Landing #s3 .yt-logo{
+
+#Landing #s3 .yt-logo {
     background: #202020;
     border-radius: 100%;
     /* padding: 50px; */
@@ -77,17 +79,21 @@
     border: 15px solid #202020;
     /* margin: 0 10%; */
 }
+
 #Landing #s3 .text-container {
     max-width: 30%;
     margin: 1%;
 }
-#Landing #s3 .text-container h3{
+
+#Landing #s3 .text-container h3 {
     line-height: 0;
 }
+
 #Landing #s3 .text-container p {
     /* display: inline; */
     font-size: large;
 }
+
 #Landing #s3 .text-container button {
     background: #FE0002;
     border: none;
@@ -98,57 +104,168 @@
     font-size: large;
     cursor: pointer;
     transition: all 0.2s ease-in;
-    &:hover{
+
+    &:hover {
         box-shadow: 0 0 10px#FE0002;
     }
+}
+
+#Landing #s4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Landing #s4 img {
+    display: inline-block;
+    max-width: max-content;
+    height: min-content;
+    flex-shrink: 0;
+}
+
+#Landing #s4 .text-container {
+    display: inline-block;
+    width: 50%;
+    font-size: x-large;
+}
+
+#Landing #s4 h2 {
+    margin-left: -20px;
+}
+
+#Landing #s5 {
+    text-align: center;
+    font-size: x-large;
+    margin: 10vw 3vw;
+}
+
+#Landing #s5 .logos-container {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#Landing #s5 .logos-container-1 {
+    border-bottom: 1px solid white;
+    border-image: linear-gradient(90deg, transparent 40%, white 50%, transparent 60%) 40%;
+}
+
+#Landing #s5 .logos-container-1,
+#Landing #s5 .logos-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 2vw; */
+}
+#Landing #s5 .logos-container-1 .logo {
+    padding-bottom: 2vw;
+    border-left: 1px solid white;
+    border-image: linear-gradient(transparent 40%, white 80%) 40%;
+}
+#Landing #s5 .logos-container-2 .logo {
+    padding-top: 2vw;
+    border-left: 1px solid white;
+    border-image: linear-gradient( white 20% ,transparent 60%) 40%;
+}
+#Landing #s5 .logos-container-1 .logo:first-child,
+#Landing #s5 .logos-container-2 .logo:first-child{
+    border-left: none;
+}
+#Landing #s5 .logos-container .logo{
+    width: 20%;
+    /* border: 1px solid white; */
+}
+#Landing #s5 img{
+    width: 60%;
 }
 @media screen and (max-width: 1200px) {
     #Landing #s1 {
         justify-content: space-between;
     }
+
     #Landing #s1 .text-container,
     #Landing #s1 .img-container {
         width: 48%;
         font-size: large;
     }
-    #Landing #s1 .text-container{
+
+    #Landing #s1 .text-container {
         margin-top: 20px;
     }
-    #Landing #s1 .text-container button{
+
+    #Landing #s1 .text-container button {
         font-size: large;
         margin: 5px;
     }
-    
+
 }
-@media screen and (max-width: 890px) {  /**  Mobile */
+
+@media screen and (max-width: 890px) {
+
+    /**  Mobile */
     #Landing #s1 {
         flex-direction: column;
         text-align: center;
         align-items: center;
         margin: 0;
     }
+
     #Landing #s1 .text-container,
     #Landing #s1 .img-container {
         width: 80%;
     }
+
     #Landing #s1 .img-container {
         margin-top: 50px;
         max-width: 500px;
     }
+
     #Landing #s2 {
         flex-direction: column;
         padding: 5%;
+        margin: 0;
     }
+
     #Landing #s3 {
         flex-direction: column;
         height: 100%;
         text-align: center;
+        margin-top: 20%;
+        margin-bottom: 20px;
     }
-    #Landing #s3 img{
+
+    #Landing #s3 img {
         margin-top: -30%;
         width: 50%;
     }
-    #Landing #s3 .text-container{
+
+    #Landing #s3 .text-container {
         max-width: 80%;
     }
+
+    #Landing #s4 {
+        flex-direction: column;
+    }
+
+    #Landing #s4 img {
+        max-width: 70%;
+        height: min-content;
+        flex-shrink: 0;
+    }
+
+    #Landing #s4 .text-container {
+        text-align: center;
+        display: inline-block;
+        width: 80%;
+        font-size: x-large;
+    }
+
+    #Landing #s4 h2 {
+        margin-left: -20px;
+    }
+
+    #Landing #s5 .logos-container {
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+    }
+
 }
