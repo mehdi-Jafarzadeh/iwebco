@@ -1,0 +1,70 @@
+.ProjectCard {
+    background: #010022;
+    width: 400px;
+    max-width: 35vw;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #9d0aff6b;
+}
+
+.ProjectCard img {
+    border-radius: 20px;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.ProjectCard button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: large;
+    background: #5d00a8;
+    color: white;
+    transition: all 0.2s ease;
+    border: 2px solid #5d00a8;
+
+    &:hover {
+        background: #ffffff;
+        color: #5d00a8;
+        /* font-weight: bold; */
+        cursor: pointer;
+    }
+    & a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.ProjectCard dialog {
+    border: 5px solid #5d00a8;
+    width: 300px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: large;
+    width:60%;
+    & div {
+        width: 50%;
+        display: inline-block;
+    }
+}
+
+.ProjectCard dialog::backdrop {
+    background: #0000007e;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+}
+
+@media screen and (max-width: 890px) {
+    .ProjectCard  {
+        font-size: small;
+        max-width: 45%;
+    }
+    .ProjectCard button {
+        font-size: small;
+        max-width: 40%;
+        margin: 5%;
+    }
+}

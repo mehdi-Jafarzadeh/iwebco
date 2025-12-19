@@ -140,6 +140,7 @@
 }
 
 #Landing #s5 .logos-container {
+    margin-top: 50px;
 
     display: flex;
     flex-direction: column;
@@ -176,6 +177,18 @@
 }
 #Landing #s5 img{
     width: 60%;
+}
+#Landing #s6{
+    text-align: center;
+}
+#Landing #s6 h2{
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+#Landing #s6 .ProjectCard-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 @media screen and (max-width: 1200px) {
     #Landing #s1 {
@@ -235,7 +248,9 @@
 
     #Landing #s3 img {
         margin-top: -30%;
-        width: 50%;
+        width: 50vw;
+        height: 50vw;
+
     }
 
     #Landing #s3 .text-container {
@@ -248,15 +263,15 @@
 
     #Landing #s4 img {
         max-width: 70%;
-        height: min-content;
-        flex-shrink: 0;
+        height: auto;
+        max-height: 70vw;
     }
 
     #Landing #s4 .text-container {
         text-align: center;
         display: inline-block;
         width: 80%;
-        font-size: x-large;
+        font-size: large;
     }
 
     #Landing #s4 h2 {

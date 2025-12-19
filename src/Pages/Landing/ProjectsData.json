@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "title":"Homeset Complex Website",
+        "img":"/Landing/projects/homeset.webp",
+        "link":"https://mehdi-jafarzadeh.github.io/Homeset/",
+        "desc": "this website coded and developed for home furniture holding in Tabriz wich the aim was for basicly intoducing the company to visitors"
+    },
+    {
+        "id":2,
+        "title":"Delvan sport website",
+        "img":"/Landing/projects/delvan.jpg",
+        "desc" : "powerfull ecommerce website for boxing accecories"
+    },
+    {
+        "id":3,
+        "title":"Zam Holding Website",
+        "img":"/Landing/projects/zam.webp",
+        "desc": "this website developed with 3 main activities to acomplish first one being the platform for reserving exibition places second one is getting touch with customers about architecture and third one is for booth building"
+    },
+    {
+        "id":4,
+        "title":"ASF Website",
+        "img":"/Landing/projects/asf.jpg",
+        "link":"https://tabrizasf.com",
+        "desc" : "this website created for tabriz asf one of the best and awesome railing groupes en Tabriz aim for marketing purposes and showing the previous projects and gaining trust of customers"
+    },
+    {
+        "id":5,
+        "title":"Neda Azrbayjan Website",
+        "img":"/Landing/projects/na.webp",
+        "desc" : "this website developed for Distribution of food company wich is the representative for sanich,quantom,nano,etc."
+    },
+    {
+        "id":6,
+        "title":"Railing Website",
+        "img":"/Landing/projects/asf.webp",
+        "desc" : "this website created for railing company aim for marketing purpuses"
+    }
+]
