@@ -40,7 +40,7 @@ function Landing() {
         </section>
 
         <section id="s4">
-            <img src="/Landing/mehdi jafarzadeh.png" alt="Mehdi-Jafarzadeh" />
+            <img src="/Landing/mehdi jafarzadeh 1.png" alt="Mehdi-Jafarzadeh" />
             <div className="text-container">
                 <h2>who are we ?</h2>
                 <p>I am Mehdi Jafarzadeh, with over a decade of experience in coding, programming, and maintaining projects. I hold a Master’s degree in Computer Engineering. At Webco, our team is more than just content creators — we actively develop and build websites, apps, and platforms for companies, while also providing digital marketing services and maintaining their existing systems. With a dedicated team of over 10 professionals working side by side, we strive to deliver the best experience and achieve success for our customers.</p>
